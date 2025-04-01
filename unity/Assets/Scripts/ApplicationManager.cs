@@ -4,18 +4,18 @@ using UnityEngine;
 
 
 
-
+//Application Manager
 public class ApplicationManager : MonoBehaviour
-
 {
     public GameObject EnemyPrefab;
     public Transform camTransform;
-
     public int EnemyNumber = 10;
     public float SpawnRange = 3f;
 
+    //Spawn
     public void SpawnEnemy()
     {
+        /*
         for (int i = 0; i < EnemyNumber; i++)
         {
             float x = camTransform.position.x + Random.Range(-SpawnRange, SpawnRange);
@@ -24,7 +24,22 @@ public class ApplicationManager : MonoBehaviour
             Vector3 spawnPos = new Vector3(x, y, z);
             Instantiate(EnemyPrefab, spawnPos, Quaternion.identity);
         }
+        */
     }
+
+
+    public void SpawnAsteroid()
+    {
+        // Implement asteroid spawning logic here
+    }
+    public void SpawnMoon()
+    {
+        // Implement black hole spawning logic here
+    }
+
+
+
+
     // Start is called before the first frame update
     void Start()
     {

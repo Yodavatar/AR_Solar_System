@@ -1,3 +1,5 @@
+MUSIC
+
 AudioPapkin in pixabay for ambient soundscapes
 
 DELOSound in pixabay for Upbeat Background Music
@@ -5,3 +7,30 @@ DELOSound in pixabay for Upbeat Background Music
 Clavier-Music in pixabay for calm space
 
 folk_acoustic in pixabay for Morning Garden
+
+(link to pixabay) https://pixabay.com/
+
+IMAGE
+
+sun.jpg NASA/SDO (AIA) — http://sdo.gsfc.nasa.gov/assets/img/browse/2010/08/19/20100819_003221_4096_0304.jpg Public domain 19 août 2010
+
+mercure.jpg NASA/Johns Hopkins University Applied Physics Laboratory/Carnegie Institution of Washington. Edited version of Image:Mercury in color - Prockter07.jpg by Papa Lima Whiskey. — NASA/JPL Domaine public 30 janvier 2008
+
+venus.jpg NASA/JPL — http://photojournal.jpl.nasa.gov/catalog/PIA00104 Domaine public 28 octobre 1991
+
+earth.jpg NASA/Apollo 17 crew — https://web.archive.org/web/20160112123725/http://grin.hq.nasa.gov/ABSTRACTS/GPN-2000-001138.html (image link)	 Domaine public 7 décembre 1972
+
+mars.jpg NASA / USGS — http://nssdc.gsfc.nasa.gov/photo_gallery/photogallery-mars.html http://nssdc.gsfc.nasa.gov/image/planetary/mars/marsglobe1.jpg Domaine public 22 février 1980
+
+jupiter.jpg NASA/JPL-Caltech/SwRI/MSSS/Kevin M. Gill — jpl.nasa.gov/spaceimages/details.php?id=PIA22946 Domaine public 12 février 2019
+
+saturn.jpg NASA/JPL-Caltech/SSI/Cornell — http://www.nasa.gov/mission_pages/cassini/multimedia/pia17474.html#.Um1oeeig5w0 Domaine public 27 octobre 2013
+
+uranus.jpg NASA/JPL-Caltech — http://photojournal.jpl.nasa.gov/catalog/PIA18182 Public Domain 16 December 1986
+
+neptune.jpg NASA - JPL image Public Domain 20 August 1989
+
+
+TEXTURE
+
+https://www.solarsystemscope.com/textures/
