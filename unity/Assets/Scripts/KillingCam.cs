@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+/*
 public class KillingCam : MonoBehaviour
 {
     public GameObject ParticleEffect;
@@ -23,6 +24,7 @@ public class KillingCam : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         if (!touchPressAction.WasPerformedThisFrame())
         {
             return;
@@ -39,5 +41,7 @@ public class KillingCam : MonoBehaviour
                 Destroy(hitObj);
             }
         }
+        
     }
 }
+*/

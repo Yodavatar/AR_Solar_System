@@ -3,52 +3,37 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-
 //Application Manager
-public class ApplicationManager : MonoBehaviour
+public class ApplicationManager: MonoBehaviour
 {
-    public GameObject EnemyPrefab;
-    public Transform camTransform;
-    public int EnemyNumber = 10;
-    public float SpawnRange = 3f;
+    private SystemManager systemManager;
 
-    //Spawn
-    public void SpawnEnemy()
+    // Constructor
+    public ApplicationManager()
     {
-        /*
-        for (int i = 0; i < EnemyNumber; i++)
-        {
-            float x = camTransform.position.x + Random.Range(-SpawnRange, SpawnRange);
-            float y = camTransform.position.y + Random.Range(-SpawnRange, SpawnRange);
-            float z = camTransform.position.z + Random.Range(-SpawnRange, SpawnRange);
-            Vector3 spawnPos = new Vector3(x, y, z);
-            Instantiate(EnemyPrefab, spawnPos, Quaternion.identity);
-        }
-        */
+        systemManager = new SystemManager();
     }
-
-
-    public void SpawnAsteroid()
-    {
-        // Implement asteroid spawning logic here
-    }
-    public void SpawnMoon()
-    {
-        // Implement black hole spawning logic here
-    }
-
-
-
 
     // Start is called before the first frame update
     void Start()
     {
-        SpawnEnemy();
+        Debug.Log("Start Game");
+        systemManager.Start();
+        StartCoroutine(UpdateFunction());
+    }
+
+    // Function to be called every 0.5 seconds
+    IEnumerator UpdateFunction()
+    {
+        while (true)
+        {
+            systemManager.UpdateSystem();
+            yield return new WaitForSeconds(0.5f);
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        
     }
 }
