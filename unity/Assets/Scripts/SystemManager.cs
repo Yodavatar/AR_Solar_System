@@ -9,7 +9,10 @@ public class SystemManager
     public Sun sun;
     List<Planet> allplanet = new List<Planet>();
     List<Comet> allcomet = new List<Comet>();
-    int days_passed = 1; // in days
+    public float simulationSpeed = 40f; // speed of the simulation
+    public string concentrated;// name of the planet to be concentrated on
+    public bool modeconcentrated = false; // mode concentrated on a planet 
+    public ConcentratedMode Mode; // mode concentrated on a planet
 
     // Constructor
     public SystemManager()
@@ -24,6 +27,39 @@ public class SystemManager
         planets.Add("uranus", new Planet(30687.0f, 0.72f, 2871.0f, 50.724f,"uranus"));
         planets.Add("neptune", new Planet(60190f, 0.67f, 4497f, 49.244f,"neptune"));
         this.sun = new Sun(0, 0, 1392f);
+        this.Mode = new ConcentratedMode();
+    }
+
+    //Active Mode Concentrated
+    public void ActiveModeConcentrated(string name)
+    {
+        this.concentrated = name;
+        this.modeconcentrated = true;
+        this.Mode = new ConcentratedMode();
+        if (name == "sun")
+        {
+            this.Mode.ActivatebySun(this.sun);
+        }
+        else
+        {
+            this.Mode.ActivatebyPlanet(planets[name]);
+        }
+    }
+
+    //Desactive Mode Concentrated
+    public void DesactiveModeConcentrated(string name)
+    {
+        
+        this.modeconcentrated = true;
+        this.Mode = new ConcentratedMode();
+        foreach (KeyValuePair<string, Planet> element in planets)
+        {
+            if (element.Key != name)
+            {
+                allplanet.Add(element.Value);
+                element.Value.SpawnPlanet();
+            }
+        }
     }
 
     // Spawn Planets
@@ -52,16 +88,21 @@ public class SystemManager
     }
 
     //Update the system
-    public void UpdateSystem()
+    public void UpdateSystem(float timeElapsed)
     {
-        foreach(Planet planet in allplanet)
+        timeElapsed += timeElapsed * simulationSpeed;
+        if (!modeconcentrated)
         {
-            planet.Update(this.days_passed);
+            foreach(Planet planet in allplanet)
+            {
+                planet.Move(timeElapsed);
+            }
+            sun.Move(timeElapsed);
         }
-        foreach(Comet comet in allcomet)
+        else
         {
-            comet.Update();
+            Mode.UpdateSystem(timeElapsed);
         }
-        sun.Update();
     }
+
 }
