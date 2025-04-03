@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 //Comet
-public class Comet : MonoBehaviour
+public class Comet
 {
     private float orbital_period_in_terrestrial_periode; // in days
     private float rotation_period_in_itself; // in days

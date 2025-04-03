@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-// Planet
+//Planet
 public class Planet
 {
     public float space_size = 0.05f; // in million km
@@ -11,38 +11,38 @@ public class Planet
     private float rotation_period_in_itself; // in days
     private float distance_from_sun; // in million km
     private float diameter; // in thousand km
-    private string name; // name of the planet
+    public string name; // name of the planet
     private GameObject planetobject; // in km
-
-    // Properties to access the distance and period
+    private float rotationAngle; // Angle of rotation around its own axis
     public float Distance => distance_from_sun;
     public float Period => orbital_period_in_terrestrial_periode;
 
-    // Constructor
+    // Constructor of the planet
     public Planet(float orbital_period_in_terrestrial_periode, float rotation_period_in_itself, float distance_from_sun, float diameter, string name)
     {
         this.orbital_period_in_terrestrial_periode = orbital_period_in_terrestrial_periode;
-        this.rotation_period_in_itself = rotation_period_in_itself;
+        this.rotation_period_in_itself = 100f;
         this.distance_from_sun = distance_from_sun;
         this.diameter = diameter;
         this.name = name;
+        this.rotationAngle = 0f;
     }
 
-    // Spawn Planets
+    //Spawn Planets
     public void SpawnPlanet()
     {
-        this.planetobject = GameObject.Find(name);
-        this.planetobject.transform.position = new Vector3(0, 0, 10 + distance_from_sun * space_size); // in million km
-        this.planetobject.transform.localScale = new Vector3(1 + diameter * space_scale, 1 + diameter * space_scale, 1 + diameter * space_scale); // in thousand km
+        this.planetobject = GameObject.Find(this.name);
+        if (this.planetobject != null)
+        {
+            this.planetobject.transform.localScale = new Vector3(1 + diameter * space_scale, 1 + diameter * space_scale, 1 + diameter * space_scale); // in thousand km
+        }
+        else
+        {
+            Debug.LogError("GameObject for planet " + name + " not found.");
+        }
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        SpawnPlanet();
-    }
-
-    // Calculate the position of the planet in the solar system
+    //Calculate the position of the planet in the solar system
     public (float X, float Y) CalculatePosition(float time)
     {
         float angle = 2 * Mathf.PI * (time / Period);
@@ -51,20 +51,15 @@ public class Planet
         return (x, y);
     }
 
-    // Move the planet based on the elapsed days
-    public void Move(float daysElapsed)
+    //Move the planet based on the elapsed days
+    public void Move(float timeElapsed)
     {
-        var (x, y) = CalculatePosition(daysElapsed);
+        var (x, y) = CalculatePosition(timeElapsed);
         if (planetobject != null)
         {
-            planetobject.transform.position = new Vector3(x * space_size, y * space_size, 10 + distance_from_sun * space_size);
+            planetobject.transform.position = new Vector3(x * space_size, 0, y * space_size);
+            rotationAngle = (2 * Mathf.PI * timeElapsed) / rotation_period_in_itself;
+            planetobject.transform.rotation = Quaternion.Euler(0, rotationAngle * Mathf.Rad2Deg, 0);
         }
-    }
-
-    // Update also moves the planet in the solar system
-    public void Update(float daysElapsed)
-    {
-        Debug.Log("Update" + name);
-        Move(daysElapsed);
     }
 }
