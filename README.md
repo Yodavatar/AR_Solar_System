@@ -30,7 +30,7 @@ to people who want to make augmented reality.<br>
 
 The Menu has only three buttons for play the game and the music's settings.<br>
 
-![Menu screenshot](https://github.com/user-attachments/assets/d7815ac2-3a06-42f3-b459-6adecd0be3c0 =500x400)
+![Menu screenshot](https://github.com/user-attachments/assets/d7815ac2-3a06-42f3-b459-6adecd0be3c0=500x400)
 
   
 - **Movement of the solar system**
@@ -46,7 +46,7 @@ More ten questions about space, with a timer, a "death" and a "victory".<br>
 
 All assets in his git is free copyright.<br>
 
-![GAME](https://github.com/user-attachments/assets/03c7864d-8e7f-4d17-97ee-7b3093a242eb =200x400)
+![GAME](https://github.com/user-attachments/assets/03c7864d-8e7f-4d17-97ee-7b3093a242eb=200x400)
 
 
 ## Installation
@@ -54,22 +54,27 @@ All assets in his git is free copyright.<br>
 To install AR_Solar_System, follow these steps:
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/yodavatar/AR_Solar_System.git
    ```
    <br>
-2. Navigate to the project directory:
+3. Navigate to the project directory:
+
    ```bash
    cd project-name
    ```
    <br>
-3. Install the dependencies:
+4. Install the dependencies:
+
    ```bash
    npm install
    ```
    <br>
 
+
 ## Usage
+
 
 To use AR Solar System you need to have unity in 2022.3.60f1's version.<br>
 The AR usage is for phone, work with ANDROID or IOS. (Framework to add in [Unity](https://unity.com/)) <br>
@@ -77,11 +82,14 @@ The AR usage is for phone, work with ANDROID or IOS. (Framework to add in [Unity
 
 ## Contribution
 
+
 I appreciate the others contributions from the community!<br>
 To contribute to AR_Solar_System, follow these steps:<br>
 Thanks for [Chuis1opposum](https://github.com/chuis1opposum) for his work.<br>
 
+
 __**If you want contribute to this project.**__
+
 
 1. Fork the repository.
 2. Create a branch for your feature (`git checkout -b addmanyfeature`).
@@ -89,14 +97,22 @@ __**If you want contribute to this project.**__
 4. Push to the branch (`git push origin addmanyfeature`).
 5. Open a Pull Request (`And add your message of your modifications`).
 
+
 ## License
 
-This project is licensed under the GNU GENERAL PUBLIC LICENSE. See the [GNU GENERAL PUBLIC LICENSE](LICENSE) file for details.
+
+This project is licensed under the GNU GENERAL PUBLIC LICENSE.<br>
+See the [GNU GENERAL PUBLIC LICENSE](LICENSE) file for details.<br>
+
 
 ## Contact
 
-If you have any questions or suggestions, feel free to contact me at contact@yodavatar.me <br>
+If you have any questions or suggestions, <br>
+feel free to contact me at contact@yodavatar.me <br>
+
 
 ---
 
-Thank you for using AR_Solar_System! We hope you find this project useful and interesting. 🚀
+
+Thank you for using AR_Solar_System!<br>
+We hope you find this project useful and interesting. 🚀<br>
