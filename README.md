@@ -15,12 +15,12 @@ This project was **finished**.
 
 ## Introduction
 
-AR Solar System is a increasing reality project
-where we can visited our solar system at
-the same time to answer to MQC on the space.
+AR Solar System is a increasing reality project<br>
+where we can visited our solar system at<br>
+the same time to answer to MQC on the space.<br>
 
-It was created to fun and is primarily targeted
-to people who want to make augmented reality.
+It was created to fun and is primarily targeted<br>
+to people who want to make augmented reality.<br>
 
 ![Screenshot](https://github.com/user-attachments/assets/585e330b-0e2a-41d2-a8e7-77623a27643e)
 
