@@ -26,7 +26,7 @@ to people who want to make augmented reality.<br>
 
 ## Features
 
-- **Menu**
+--**Menu**--
 
 The Menu has only three buttons for play the game and the music's settings.<br>
 
