@@ -74,9 +74,10 @@ The AR usage is for phone, work with ANDROID or IOS. (Framework to add in [Unity
 ## Contribution
 
 
+Thanks for [Chuis1opposum](https://github.com/chuis1opposum) for his work.<br>
+
 I appreciate the others contributions from the community!<br>
 To contribute to AR_Solar_System, follow these steps:<br>
-Thanks for [Chuis1opposum](https://github.com/chuis1opposum) for his work.<br>
 
 
 __**If you want contribute to this project.**__
