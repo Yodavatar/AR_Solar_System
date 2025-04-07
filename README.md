@@ -3,7 +3,6 @@ This project was **finished**.
 
 ![Gif finish project](https://media.tenor.com/w7D79HmiUKwAAAAM/rolando-check.gif)
 
-
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -16,22 +15,23 @@ This project was **finished**.
 
 ## Introduction
 
-AR Solar System is a increasing reality project where we can visited our solar system.
-This project was based on unity engine.
-[Project Name] is a [detailed description of the project]. It was created to [reason for creating the project] and is primarily targeted at [target audience].
+AR Solar System is a increasing reality project
+where we can visited our solar system at
+the same time to answer to MQC on the space.
 
-![image](https://github.com/user-attachments/assets/d7815ac2-3a06-42f3-b459-6adecd0be3c0)
+It was created to fun and is primarily targeted
+to people who want to make augmented reality.
 
-![image](https://github.com/Yodavatar/AR_Solar_System/blob/main/VideoScreen)
-
-
+![Screenshot](https://github.com/user-attachments/assets/585e330b-0e2a-41d2-a8e7-77623a27643e)
 
 ## Features
 
-- [Feature 1]
-- [Feature 2]
-- [Feature 3]
-- [Etc.]
+- [Menu]
+- [Movement of the solar system]
+- [MCQ (in french)]
+
+  [Screenshot](https://github.com/user-attachments/assets/d7815ac2-3a06-42f3-b459-6adecd0be3c0)
+
 
 ## Installation
 
@@ -52,7 +52,8 @@ To install AR_Solar_System, follow these steps:
 
 ## Usage
 
-To use [Project Name], follow these instructions:
+To use AR Solar System you need to have unity in 2022.3.60f1's version.
+The AR usage is for phone, work with ANDROID or IOS. (Framework to add in [Unity](https://unity.com/)) 
 
 1. Start the application:
    ```bash
