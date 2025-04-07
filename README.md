@@ -31,6 +31,7 @@ to people who want to make augmented reality.<br>
 The Menu has only three buttons for play the game and the music's settings.<br>
 
 ![Menu screenshot](https://github.com/user-attachments/assets/d7815ac2-3a06-42f3-b459-6adecd0be3c0=500x400)
+<img src="https://github.com/user-attachments/assets/d7815ac2-3a06-42f3-b459-6adecd0be3c0" width="400" height="250"/>
 
   
 - **Movement of the solar system**
