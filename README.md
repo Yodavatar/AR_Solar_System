@@ -30,7 +30,7 @@ to people who want to make augmented reality.<br>
 - [Movement of the solar system]
 - [MCQ (in french)]
 
-  [Screenshot](https://github.com/user-attachments/assets/d7815ac2-3a06-42f3-b459-6adecd0be3c0)
+![Screenshot](https://github.com/user-attachments/assets/d7815ac2-3a06-42f3-b459-6adecd0be3c0)
 
 
 ## Installation
@@ -52,22 +52,17 @@ To install AR_Solar_System, follow these steps:
 
 ## Usage
 
-To use AR Solar System you need to have unity in 2022.3.60f1's version.
-The AR usage is for phone, work with ANDROID or IOS. (Framework to add in [Unity](https://unity.com/)) 
+To use AR Solar System you need to have unity in 2022.3.60f1's version.<br>
+The AR usage is for phone, work with ANDROID or IOS. (Framework to add in [Unity](https://unity.com/)) <br>
 
-1. Start the application:
-   ```bash
-   npm start
-   ```
-   or
-   ```bash
-   python app.py
-   ```
 
 ## Contribution
 
-I appreciate the others contributions from the community!
-To contribute to AR_Solar_System, follow these steps:
+I appreciate the others contributions from the community!<br>
+To contribute to AR_Solar_System, follow these steps:<br>
+Thanks for [Chuis1opposum](https://github.com/chuis1opposum) for his work.<br>
+
+__**If you want contribute to this project.**__
 
 1. Fork the repository.
 2. Create a branch for your feature (`git checkout -b addmanyfeature`).
@@ -77,11 +72,11 @@ To contribute to AR_Solar_System, follow these steps:
 
 ## License
 
-This project is licensed under the [License Name]. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the GNU GENERAL PUBLIC LICENSE. See the [GNU GENERAL PUBLIC LICENSE](LICENSE) file for details.
 
 ## Contact
 
-If you have any questions or suggestions, feel free to contact me at contact@yodavatar.me.
+If you have any questions or suggestions, feel free to contact me at contact@yodavatar.me <br>
 
 ---
 
