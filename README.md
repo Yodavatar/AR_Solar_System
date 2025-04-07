@@ -31,15 +31,19 @@ to people who want to make augmented reality.<br>
 The Menu has only three buttons for play the game and the music's settings.<br>
 
 <img src="https://github.com/user-attachments/assets/d7815ac2-3a06-42f3-b459-6adecd0be3c0" width="600" height="350"/>
-  
+
+
+
 - **Movement of the solar system**
 
 The solar system owns the movements around the sun.<br>
 He has also a rotation around himself.<br>
-  
+
+
 - **MCQ (in french)**
 
 More ten questions about space, with a timer, a "death" and a "victory".<br>
+
 
 - **Assets**
 
@@ -47,29 +51,22 @@ All assets in his git is free copyright.<br>
 
 <img src="https://github.com/user-attachments/assets/03c7864d-8e7f-4d17-97ee-7b3093a242eb" width="200" height="300"/>
 
+
 ## Installation
 
-To install AR_Solar_System, follow these steps:
+To install AR_Solar_System, you can:
 
-1. Clone the repository:
+1. **Clone the repository**:
 
    ```bash
    git clone https://github.com/yodavatar/AR_Solar_System.git
    ```
    <br>
-3. Navigate to the project directory:
-
-   ```bash
-   cd project-name
-   ```
+2. **Get to zip**:
+<br>
+   
+   [Link to get the ZIP](https://github.com/Yodavatar/AR_Solar_System/archive/refs/heads/main.zip)
    <br>
-4. Install the dependencies:
-
-   ```bash
-   npm install
-   ```
-   <br>
-
 
 ## Usage
 
