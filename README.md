@@ -26,27 +26,27 @@ to people who want to make augmented reality.<br>
 
 ## Features
 
-- [Menu]
+- **Menu**
 
 The Menu has only three buttons for play the game and the music's settings.<br>
 
-![Menu screenshot](https://github.com/user-attachments/assets/d7815ac2-3a06-42f3-b459-6adecd0be3c0 =500*400)
+![Menu screenshot](https://github.com/user-attachments/assets/d7815ac2-3a06-42f3-b459-6adecd0be3c0 =500x400)
 
   
-- [Movement of the solar system]
+- **Movement of the solar system**
 
 The solar system owns the movements around the sun.<br>
 He has also a rotation around himself.<br>
   
-- [MCQ (in french)]
+- **MCQ (in french)**
 
 More ten questions about space, with a timer, a "death" and a "victory".<br>
 
-- [Assets]
+- **Assets**
 
 All assets in his git is free copyright.<br>
 
-  ![GAME](https://github.com/user-attachments/assets/03c7864d-8e7f-4d17-97ee-7b3093a242eb)
+![GAME](https://github.com/user-attachments/assets/03c7864d-8e7f-4d17-97ee-7b3093a242eb =200x400)
 
 
 ## Installation
