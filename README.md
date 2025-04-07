@@ -30,8 +30,7 @@ to people who want to make augmented reality.<br>
 
 The Menu has only three buttons for play the game and the music's settings.<br>
 
-![Menu screenshot](https://github.com/user-attachments/assets/d7815ac2-3a06-42f3-b459-6adecd0be3c0=500x400)
-<img src="https://github.com/user-attachments/assets/d7815ac2-3a06-42f3-b459-6adecd0be3c0" width="400" height="250"/>
+<img src="[https://github.com/user-attachments/assets/03c7864d-8e7f-4d17-97ee-7b3093a242eb" width="200" height="450"/>
 
   
 - **Movement of the solar system**
@@ -47,7 +46,10 @@ More ten questions about space, with a timer, a "death" and a "victory".<br>
 
 All assets in his git is free copyright.<br>
 
-![GAME](https://github.com/user-attachments/assets/03c7864d-8e7f-4d17-97ee-7b3093a242eb=200x400)
+![GAME](=200x400)
+
+<img src="https://github.com/user-attachments/assets/d7815ac2-3a06-42f3-b459-6adecd0be3c0" width="600" height="350"/>
+
 
 
 ## Installation
