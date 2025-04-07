@@ -44,14 +44,12 @@ He has also a rotation around himself.<br>
 
 More ten questions about space, with a timer, a "death" and a "victory".<br>
 
+<img src="https://github.com/user-attachments/assets/03c7864d-8e7f-4d17-97ee-7b3093a242eb" width="200" height="300"/>
 
 - **Assets**
 
 All assets in his git is free copyright.<br>
-You can see the author [here](https://github.com/Yodavatar/AR_Solar_System/blob/main/author.txt).
-
-<img src="https://github.com/user-attachments/assets/03c7864d-8e7f-4d17-97ee-7b3093a242eb" width="200" height="300"/>
-
+You can see the author [here](https://github.com/Yodavatar/AR_Solar_System/blob/main/author.txt).<br>
 
 ## Installation
 
