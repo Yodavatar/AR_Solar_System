@@ -26,25 +26,24 @@ to people who want to make augmented reality.<br>
 
 ## Features
 
-__**Menu**__
+__**1 - Menu**__
 
 The Menu has only three buttons for play the game and the music's settings.<br>
 
 <img src="https://github.com/user-attachments/assets/d7815ac2-3a06-42f3-b459-6adecd0be3c0" width="600" height="350"/>
 
-
-__**Movement of the solar system**__
+__**2 - Movement of the solar system**__
 
 The solar system owns the movements around the sun.<br>
 He has also a rotation around himself.<br>
 
-__**MCQ (in french)**__
+__**3 - MCQ (in french)**__
 
 More ten questions about space, with a timer, a "death" and a "victory".<br>
 
 <img src="https://github.com/user-attachments/assets/03c7864d-8e7f-4d17-97ee-7b3093a242eb" width="200" height="300"/>
 
-__**Assets**__
+__**4 - Assets**__
 
 All assets in his git is free copyright.<br>
 You can see the author [here](https://github.com/Yodavatar/AR_Solar_System/blob/main/author.txt).<br>
