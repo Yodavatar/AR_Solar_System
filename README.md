@@ -61,11 +61,11 @@ To install AR_Solar_System, you can:
    ```bash
    git clone https://github.com/yodavatar/AR_Solar_System.git
    ```
-   <br>
-2. **Get to zip**:
-<br>
    
-   [Link to get the ZIP](https://github.com/Yodavatar/AR_Solar_System/archive/refs/heads/main.zip)
+2. **Get to zip**:
+
+   
+   You can get the link to the zip [here](https://github.com/Yodavatar/AR_Solar_System/archive/refs/heads/main.zip).
    <br>
 
 ## Usage
