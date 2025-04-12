@@ -1,5 +1,7 @@
 # AR_Solar_System
-This project was **finished**. __**Version 1.0**__ [![wakatime](https://wakatime.com/badge/user/17a8cdf0-54fb-45e9-92bc-ada49bd926d7/project/3e99e6da-540f-4ef5-bf79-2b4d962fe482.svg)](https://wakatime.com/badge/user/17a8cdf0-54fb-45e9-92bc-ada49bd926d7/project/3e99e6da-540f-4ef5-bf79-2b4d962fe482)
+This project was **finished**.<br>
+__**Version 1.0**__<br>
+[![wakatime](https://wakatime.com/badge/user/17a8cdf0-54fb-45e9-92bc-ada49bd926d7/project/3e99e6da-540f-4ef5-bf79-2b4d962fe482.svg)](https://wakatime.com/badge/user/17a8cdf0-54fb-45e9-92bc-ada49bd926d7/project/3e99e6da-540f-4ef5-bf79-2b4d962fe482)
 
 ![Gif finish project](https://media.tenor.com/w7D79HmiUKwAAAAM/rolando-check.gif)
 
