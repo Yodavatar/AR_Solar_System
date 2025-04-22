@@ -48,7 +48,7 @@ More ten questions about space, with a timer, a "death" and a "victory".<br>
 __**4 - Assets**__
 
 All assets in his git is free copyright.<br>
-You can see the authors [here](https://github.com/Yodavatar/AR_Solar_System/blob/main/author.txt).<br>
+You can see the authors [here](https://github.com/Yodavatar/AR_Solar_System/blob/main/authors.txt).<br>
 
 ## Installation
 
