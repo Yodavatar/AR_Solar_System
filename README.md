@@ -24,7 +24,7 @@ the same time to answer to MQC on the space.<br>
 It was created to fun and is primarily targeted<br>
 to people who want to make augmented reality.<br>
 
-<img src="https://github.com/user-attachments/assets/585e330b-0e2a-41d2-a8e7-77623a27643e" width="500" height="300"/>
+<img src="https://github.com/user-attachments/assets/585e330b-0e2a-41d2-a8e7-77623a27643e" width="600" height="300"/>
 
 ## Features
 
